@@ -4,5 +4,5 @@ metadata:
   name: client-config
   namespace: attendlytical
 data:
-  base-url: https://video-conferencing-gcr2.onrender.com
+  base-url: https://video-conferencing-gcr2.onrender.com/graphql
   
