@@ -11,7 +11,7 @@ const httpLink = createHttpLink({
     process.env.REACT_APP_BASE_URL ??
     (!process.env.NODE_ENV || process.env.NODE_ENV === "development"
       ? "http://localhost:4000"
-      : "https://api-attendlytical.netlify.app"),
+      : "https://video-conferencing-gcr2.onrender.com"),
 });
 
 const authLink = setContext(() => {
