@@ -24,7 +24,7 @@ app.use(
     origin:
       env == "development"
         ? ["http://localhost:3000"]
-        : ["https://attendlytical.netlify.app"],
+        : ["https://video-conferencing-kappa.vercel.app"],
     credentials: true,
   })
 );
