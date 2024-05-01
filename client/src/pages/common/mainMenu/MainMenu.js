@@ -21,25 +21,32 @@ export default () => {
                 type="left"
                 mode="random"
               >
-                Welcome to Attendlytical
+                WELCOME
               </Texty>
             </Title>
-            <Texty
+            <Title level={3}>
+              <Texty
+                type="left"
+                mode="random"
+              >
+                Mark Your Attendance here
+              </Texty>
+            </Title>
+             <Texty
               type="left"
               mode="smooth"
               interval="20"
             >
-              An attendance tracking app with facial recognition
+              An attendance tracking platform with facial recognition
             </Texty>
+          
 
             <br />
             <Button type='primary' htmlType='submit'>
               <Link to='/signup'>Get Started</Link>
             </Button>
             <Divider />
-            <div>
-              First time user? Please visit <Link to='/userguidelines'> User Guidelines</Link>
-            </div>
+            
           </Col>
         </Row>
       </Content>

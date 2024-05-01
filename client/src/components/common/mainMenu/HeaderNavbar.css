@@ -12,7 +12,9 @@
 
 @media only screen and (min-width: 800px) {
     .headerNavbar__text{
-        display: block;
+        display: flex;
+        margin-left: 580px;
+       
     }
 }
 
